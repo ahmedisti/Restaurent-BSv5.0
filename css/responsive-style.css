@@ -5,12 +5,18 @@
 @media(max-width:991px){
 
     /* custom classes */
-
+.text-content{
+    width:100% ;
+}
 
     /* navbar brand */
     .navigation-warp .navbar-brand img{
         height: 3.8125rem;
 
+    }
+    .navigation-warp{
+        text-align: center;
+        background-color: var(--white-color);
     }
     .navigation-warp .nav-link{
         line-height: 1.875rem;
@@ -24,6 +30,9 @@
 
 
     /* carorsel design */
+    .testimonial-section .carousel-item .carousel-caption p{
+        padding: 0;
+    }
 }
 @media(max-width:767px){
 
@@ -53,16 +62,35 @@ h2{
     }
 
     /* carorsel design */
+    .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+    }
 
 
     /* newsletter */
+    .newsletter{
+        width: 75%;
+    }
+    .newsletter .main-btn{
+        width: 100%;
+        margin-top: 1rem;
+
+    }
 
 
     /* footer link */
+
+    .footer .footer-links,
+    .footer a img{
+        padding: 0 0.7rem;
+    }
 
     
 }
 @media(max-width:330px){
 
     /* carorsel design */
+    .testimonial-section .carousel-item{
+        padding: 13rem 3.125rem;
+    }
 }
